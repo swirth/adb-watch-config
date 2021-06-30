@@ -1,6 +1,20 @@
 #!/usr/bin/python3
 #coding:utf-8
 
+# Silvan Wirth 2021
+#
+# Python script to remove packages on a smartwatch
+# according to a list. The connection between host
+# and target (smartwatch) is established via WLAN.
+#
+# Updates for this script will be available at
+# https://github.com/swirth/adb-watch-config
+#
+# for more information about the usage:
+# adb-remove-apps.py --help
+#
+
+
 import os
 import time
 import subprocess
