@@ -48,7 +48,7 @@ All entries in the list have the prefix package, which must be removed:
 
 `sed -i -e 's/package://g' export.txt `
 
-All packages in the list are going to be uninstalled. Therefor all packages which shall remain on the device have to be removed from the list. The list then has the following exemplary entries:
+All packages in the list are going to be uninstalled. Therefor all packages which shall remain on the device have to be removed from the list. The list has the following exemplary structure/entries:
 
 ```
 com.google.android.clockwork.flashlight
@@ -59,11 +59,11 @@ com.google.android.apps.fitness
 ```
 
 ### Expected behavior and exceptions
-The script exports a list of the remaining packages on the target device into the file `installed_packages.txt`. The script checks whether all packages according to the list have been removed. If so, it will be displayed as a success message:
+A list of the remaining packages on the target device is exported into the file `installed_packages.txt` and used to check, whether all packages according to the list have been removed. If so, a success message will be displayed:
 
 `All packages cleared and uninstalled`
 
-It is possible that packages cannot be uninstalled correctly. The script recognizes which packages these are and exports them to the file `uninstalled_packages.txt`. A corresponding message will be displayed:
+It is possible that packages cannot be uninstalled correctly. The script recognizes which packages are concerned and exports them to the file `uninstalled_packages.txt`. A corresponding message will be displayed:
 
 `2 package(s) still installed, check output file 'uninstalled_packages.txt' for details`
 
