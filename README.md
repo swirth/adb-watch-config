@@ -63,7 +63,7 @@ A list of the remaining packages on the target device is exported into the file 
 
 `All packages cleared and uninstalled`
 
-It is possible that packages cannot be uninstalled correctly. The script recognizes which packages are concerned and exports them to the file `uninstalled_packages.txt`. A corresponding message will be displayed:
+It is possible that packages cannot be uninstalled. The script recognizes which packages are concerned and exports them to the file `uninstalled_packages.txt`. A corresponding message will be displayed:
 
 `2 package(s) still installed, check output file 'uninstalled_packages.txt' for details`
 
