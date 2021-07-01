@@ -44,7 +44,7 @@ The package list can then be exported:
 
 `adb shell pm list packages | sort > export.txt`
 
-All entries in the list have the prefix package, which must be removed:
+All entries in the list have the prefix `package`, which must be removed:
 
 `sed -i -e 's/package://g' export.txt `
 
