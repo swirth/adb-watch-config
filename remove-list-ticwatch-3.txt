@@ -29,7 +29,6 @@ com.google.android.clockworkicons
 com.google.android.clockwork.gestures.tutorial
 com.google.android.googlequicksearchbox
 com.google.android.marvin.talkback
-com.google.android.wearable.ambient
 com.google.android.wearable.assistant
 com.google.android.wearable.frameworkpackagestubs
 com.google.android.wearable.overlay.home.mobvoi.tiles
